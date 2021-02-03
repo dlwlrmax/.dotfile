@@ -1,5 +1,5 @@
 #!/bin/bash
-# declare pw="11234"
+declare pw="11234"
 
 OHMYZSH=$HOME/.oh-my-zsh
 echo "$OHMYZSH exists."
@@ -17,4 +17,4 @@ bash link.sh
 
 source ~/.zshrc
 
-chsh -s $(which zsh)
+echo $pw | sudo -S -k chsh -s $(which zsh)
