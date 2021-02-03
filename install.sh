@@ -4,6 +4,7 @@
 OHMYZSH=~/.oh-my-zsh
 if [ -d "$OHMYZSH" ]; then
     echo "$OHMYZSH exists."
+	rm -rf "$OHMYZSH"
 else 
 	echo "install oh-my-zsh"
 	echo "11234" | sudo -S -k sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y
