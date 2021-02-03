@@ -1,5 +1,5 @@
 #!/bin/bash
-declare -a arr=(".zshrc" ".gitconfig" )
+declare -a arr=(".zshrc" ".gitconfig" ".p10k.zsh")
 
 for i in "${arr[@]}"
 do
