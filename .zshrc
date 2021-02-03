@@ -107,10 +107,10 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias ohmyzsh="gedit ~/.oh-my-zsh"
-alias zshconfig="gedit ~/.zshrc"
+alias zshconfig="xdg-open ~/.zshrc"
 alias open="xdg-open"
 alias ls="colorls -t --dark"
-alias p10kconfig="gedit ~/.p10k.zsh"
+alias p10kconfig="xdg-open ~/.p10k.zsh"
 source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
