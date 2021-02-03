@@ -1,7 +1,7 @@
 #!/bin/bash
 # declare pw="11234"
 
-OHMYZSH=~/.oh-my-zsh
+OHMYZSH=$HOME/.oh-my-zsh
 if [ -d "$OHMYZSH" ]; then
     echo "$OHMYZSH exists."
 	rm -rf "$OHMYZSH"
