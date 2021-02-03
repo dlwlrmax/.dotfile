@@ -7,9 +7,7 @@ if [ -d "$OHMYZSH" ]; then
     echo "$OHMYZSH exists."
 else 
 	echo "install oh-my-zsh"
-	wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
-	sh install.sh
-
+	sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
 # echo $pw | sudo -S -k apt install tilix -y
