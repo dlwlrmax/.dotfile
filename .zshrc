@@ -79,6 +79,7 @@ export ZSH="$HOME/.oh-my-zsh"
 plugins=(
 	git
 	zsh-autosuggestions
+	zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -111,7 +112,7 @@ alias zshconfig="xdg-open ~/.zshrc"
 alias open="xdg-open"
 alias ls="colorls -t --dark"
 alias p10kconfig="xdg-open ~/.p10k.zsh"
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export NVM_DIR="/home/dlwlrmax/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
