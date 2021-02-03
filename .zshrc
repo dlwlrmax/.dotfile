@@ -112,6 +112,7 @@ alias zshconfig="xdg-open ~/.zshrc"
 alias open="xdg-open"
 # alias ls="colorls -t --dark"
 alias p10kconfig="xdg-open ~/.p10k.zsh"
+alias i3config="xdg-open ~/.i3/config"
 # source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # export NVM_DIR="/home/dlwlrmax/.nvm"
