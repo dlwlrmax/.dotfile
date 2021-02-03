@@ -111,11 +111,7 @@ alias zshconfig="xdg-open ~/.zshrc"
 alias open="xdg-open"
 alias ls="colorls -t --dark"
 alias p10kconfig="xdg-open ~/.p10k.zsh"
-source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#source ~/.oh-my-zsh/custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 export NVM_DIR="/home/dlwlrmax/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
