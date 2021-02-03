@@ -20,7 +20,8 @@ gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703
 # gem install colorls
 # echo $pw | sudo -S -k apt install ruby
 bash link.sh
-bash font.sh
+
+# bash font.sh
 
 source ~/.zshrc
 
