@@ -110,7 +110,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="gedit ~/.oh-my-zsh"
 alias zshconfig="xdg-open ~/.zshrc"
 alias open="xdg-open"
-alias ls="colorls -t --dark"
+# alias ls="colorls -t --dark"
 alias p10kconfig="xdg-open ~/.p10k.zsh"
 # source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
