@@ -6,7 +6,7 @@ OHMYZSH=~/.oh-my-zsh
 if [ -d "$OHMYZSH" ]; then
     echo "$OHMYZSH exists."
 else 
-    echo "$OHMYZSH does not exist."
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
 # echo $pw | sudo -S -k apt install tilix -y
