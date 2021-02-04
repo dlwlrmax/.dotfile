@@ -80,6 +80,7 @@ plugins=(
 	git
 	zsh-autosuggestions
 	zsh-syntax-highlighting
+	sudo
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -110,7 +111,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="gedit ~/.oh-my-zsh"
 alias zshconfig="xdg-open ~/.zshrc"
 alias open="xdg-open"
-# alias ls="colorls -t --dark"
+alias ls="colorls -t --gs --sd"
+alias la="colorls -la -t --sd"
 alias p10kconfig="xdg-open ~/.p10k.zsh"
 alias i3config="xdg-open ~/.i3/config"
 alias alaconfig="xdg-open ~/.alacritty.yml"

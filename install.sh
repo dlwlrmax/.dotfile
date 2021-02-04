@@ -1,5 +1,6 @@
 #!/bin/bash
-declare pw="11234"
+echo -n Password: 
+read -s pw
 
 OHMYZSH=$HOME/.oh-my-zsh
 echo "$OHMYZSH exists."
