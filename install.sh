@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -n Password: 
+echo -n Enter Your Password: 
 read -s pw
 
 OHMYZSH=$HOME/.oh-my-zsh
